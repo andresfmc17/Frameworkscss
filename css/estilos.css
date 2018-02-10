@@ -1,0 +1,69 @@
+body{
+  background-color: #F0F8FF;
+
+}
+.navbar-inverse {
+  background-color: rgba(7, 45, 94, 0.95);
+ 
+ 
+}
+.redes-sociales{
+  float: right;
+  margin: 10px;
+}
+.logo-img {
+  width: 100px;
+  margin-left: 10px;
+}
+header img {
+    vertical-align: middle;
+    width: 25px;
+}
+.nav>li>a{
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    background-color: rgba(7, 45, 94, 0.95);
+    color:#DC143C;
+}
+.media-body img{
+  float: right;
+  margin:5px;
+  width: 130px;
+}
+.media-left img{
+  float: left;
+  margin:5px;
+  width: 130px;
+}
+button{
+  margin: 5px;
+  margin-left: 45%;
+}
+input{
+  margin:10px;
+}
+.list-group{
+  margin-top: 10px;
+}
+
+.list-group a{
+  text-align: center;
+  color: #DC143C; 
+}
+
+
+
+@media (max-width: 770px) {
+  .media-body img{
+    float: none;
+    margin:5px;
+    width: 100%;
+  }
+  .media-left img{
+  float: none;
+  margin:5px;
+  width: 100%;
+  }
+
+}
